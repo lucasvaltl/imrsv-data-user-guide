@@ -12,8 +12,8 @@ imrsv.data was built from the start to allow the anyone to visualise data in 3-d
 ### Accepted File Formats
 
 Missing data values should be left empty. The following file formats are accepted:
-- CSV: files using commas as separators will work. Do not use an index. The first line defines the column names and hence needs to consist of strings. [Here](https://1drv.ms/u/s!ArSq-hTe1BlYgQtmPZfea8iSWcj-) is an example.
-- JSON: the file needs to be formatted as follows: one key/value pair per data column/dimension containing the column name as the key and an array of data as the value. All dimensions/columns need to have the same length and the values need to be of the same type. [Here](https://1drv.ms/u/s!ArSq-hTe1BlYgQ0YYcdVFaJA97SW) is an example. 
+- CSV (Max 5 MB): files using commas as separators will work. Do not use an index. The first line defines the column names and hence needs to consist of strings. [Here](https://1drv.ms/u/s!ArSq-hTe1BlYgQtmPZfea8iSWcj-) is an example.
+- JSON (Max 8MB): the file needs to be formatted as follows: one key/value pair per data column/dimension containing the column name as the key and an array of data as the value. All dimensions/columns need to have the same length and the values need to be of the same type. [Here](https://1drv.ms/u/s!ArSq-hTe1BlYgQ0YYcdVFaJA97SW) is an example. 
 
 <p class="tip">
 Side note: Files exported using the pandas [`pandas.DataFrame.to_json`](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.to_json.html) method without any parameters can be used. 
