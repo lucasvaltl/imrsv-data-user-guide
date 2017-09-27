@@ -16,7 +16,7 @@ Missing data values should be left empty. The following file formats are accepte
 - JSON: the file needs to be formatted as follows: one key/value pair per data column/dimension containing the column name as the key and an array of data as the value. All dimensions/columns need to have the same length and the values need to be of the same type. [Here](https://1drv.ms/u/s!ArSq-hTe1BlYgQ0YYcdVFaJA97SW) is an example. 
 
 <p class="tip">
-Side note: Files exported using the pandas [`pandas.DataFrame.to_json`] (https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.to_json.html) method without any parameters can be used. 
+Side note: Files exported using the pandas [`pandas.DataFrame.to_json`](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.to_json.html) method without any parameters can be used. 
 </p>
 
 ### Application Start
